@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Eleganckie granatowe tło, zaokrąglone rogi (styl aplikacji mobilnych) -->
+  <rect width="100" height="100" rx="22" fill="#1e3a8a"/>
+  <!-- Kształt domku akcentujący złoto-pomarańczowym kolorem -->
+  <path d="M50 20 L16 52 L28 52 L28 82 L72 82 L72 52 L84 52 Z" fill="#f59e0b"/>
+  <!-- Dwa małe okienka -->
+  <rect x="36" y="55" width="12" height="12" rx="2" fill="#1e3a8a"/>
+  <rect x="52" y="55" width="12" height="12" rx="2" fill="#1e3a8a"/>
+</svg>

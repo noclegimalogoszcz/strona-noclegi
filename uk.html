@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Podstawowe SEO UK -->
+    <title>Житло Малогощ - Житло для працівників у Ришка</title>
+    <!-- Miniaturowe Logo w zakładce przeglądarki -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <meta name="description" content="Комфортне житло для працівників у Малогощі. 30 місць, кімнати з ТБ, кухні. Поруч із цементним заводом Holcim. Ідеально для фірм.">
+    <meta name="robots" content="index, follow">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Житло <span>Малогощ</span></div>
+        <div class="nav-links">
+            <a href="#about">Про нас</a>
+            <a href="#gallery">Галерея</a>
+            <a href="#contact">Контакт</a>
+            <!-- Zmiana Języka z powrotem na PL -->
+            <a href="index.html" class="lang-switch">🇵🇱 PL</a>
+        </div>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Житло для працівників <br><b>у Ришка</b></h1>
+            <p>Найкраще житло для фірм у Малогощі. Комфорт, простір та відмінне розташування. <br><span style="color: var(--accent); font-weight: 600;">Зараз є вільні кімнати! (Станом на: <span id="currentDate"></span>)</span></p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Зателефонуйте нам</a>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Pustowójtówny+4,+28-366+Małogoszcz" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    🌍 Навігація в 1 клік
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2 class="section-title">Чому варто обрати нас?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🛏️</div>
+                <h3>Місткість</h3>
+                <p>Близько 30 спальних місць у зручних 2-5 місних кімнатах. Ідеально підходить для великих груп робітників.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🍳</div>
+                <h3>Обладнання</h3>
+                <p>До послуг гостей 5 повністю обладнаних кухонь та 5 комфортних ванних кімнат.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📺</div>
+                <h3>Комфорт</h3>
+                <p>Телевізор у кожній кімнаті, швидкий Wi-Fi, тераса та безкоштовна парковка на 10 авто.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🧹</div>
+                <h3>Хороші умови</h3>
+                <p>Щотижневе прибирання включено у вартість. Можливість виставлення фактури для фірм.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" style="background:#f8fafc; padding-top:0;">
+        <h2 class="section-title">Точне розташування</h2>
+        <div class="location-wrapper">
+            <div class="location-text">
+                <h3>Ми знаходимося недалеко від ключових місць:</h3>
+                <ul>
+                    <li>Всього 1 км від цементного заводу Holcim (Малогощ)</li>
+                    <li>Швидкий доїзд до Тшускавиці та Буковий</li>
+                    <li>Близько до Хенцин</li>
+                    <li>Неподалік від ринку та магазинів</li>
+                </ul>
+                <div style="margin-top: 2rem;">
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=Pustowójtówny+4,+28-366+Małogoszcz" target="_blank" class="btn btn-primary" style="display:inline-flex;">Показати на Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2 class="section-title">Галерея нашого житла</h2>
+        <div id="galleryGrid" class="gallery-grid"></div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Забронюйте кімнати</h2>
+        <div class="contact-container">
+            <h3>Маєте запитання? Бажаєте дізнатися про наявність місць?</h3>
+            <p style="margin: 1rem 0; color: var(--text-muted);">Зв'яжіться з нами безпосередньо по телефону, щоб ми могли підготувати пропозицію для вашої компанії.</p>
+            
+            <div class="contact-details">
+                <div class="contact-info-block">
+                    <p>Власник: <strong>Ryszard</strong></p>
+                    <a href="tel:+48693628835" style="color:var(--primary-light); text-decoration:none;">+48 693-628-835</a>
+                </div>
+                <div class="contact-info-block">
+                    <p>Співвласник: <strong>Wanda</strong></p>
+                    <a href="tel:+48530529621" style="color:var(--primary-light); text-decoration:none;">+48 530-529-621</a>
+                </div>
+            </div>
+            
+            <div style="margin-top:2rem">
+                <p>Email: <a href="mailto:udzwig.wiater@gmail.com" style="color:var(--primary);">udzwig.wiater@gmail.com</a></p>
+                <p style="margin-top: 1rem;"><strong>Адреса:</strong> Pustowójtówny 4, 28-366 Małogoszcz</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Noclegi Małogoszcz - u Ryśka. Всі права захищені.</p>
+        <div style="margin-top: 1rem;">
+            <img src="https://profile-counter.glitch.me/noclegimalogoszcz/count.svg" alt="Licznik odwiedzin" style="height: 32px;">
+        </div>
+    </footer>
+
+    <!-- Lightbox dla galerii -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="" alt="Powiększone zdjęcie">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
